@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="center" xmlns:fx="http://javafx.com/fxml/1">
+    <TextField fx:id="display" editable="false" />
+    <GridPane hgap="10" vgap="10">
+        <Button text="1" onAction="#handleNumber" />
+        <Button text="2" onAction="#handleNumber" />
+        <Button text="3" onAction="#handleNumber" />
+        <Button text="4" onAction="#handleNumber" />
+        <Button text="5" onAction="#handleNumber" />
+        <Button text="6" onAction="#handleNumber" />
+        <Button text="7" onAction="#handleNumber" />
+        <Button text="8" onAction="#handleNumber" />
+        <Button text="9" onAction="#handleNumber" />
+        <Button text="0" onAction="#handleNumber" />
+        <Button text="." onAction="#handleNumber" /> <!-- Decimal point -->
+        <Button text="+" onAction="#handleOperator" />
+        <Button text="-" onAction="#handleOperator" />
+        <Button text="*" onAction="#handleOperator" />
+        <Button text="/" onAction="#handleOperator" />
+        <Button text="=" onAction="#handleEquals" />
+        <Button text="Clear" onAction="#handleClear" />
+    </GridPane>
+</VBox>
